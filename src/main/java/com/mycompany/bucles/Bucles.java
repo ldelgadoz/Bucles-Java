@@ -69,5 +69,20 @@ public class Bucles {
         else{
             System.out.println("Se han acabado los intentos");
         }
+        
+        //// DO WHILE
+        
+        int dato3;
+        dato3 = 0;
+        
+        do
+        {
+            System.out.println("Inroduce un num numero");
+            dato3 =  datos.nextInt();
+        }
+        while(dato3 != 0);
+        {
+                    
+        }
     }
 }
